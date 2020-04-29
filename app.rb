@@ -33,11 +33,14 @@ class App < Sinatra::Base
       @add = @number1 + @number2
       "#{@add}"
     elsif @operation == "subtract"
-      
+      @add = @number1 + @number2
+      "#{@add}"
     elsif @operation == "multiply"
-      
+      @add = @number1 + @number2
+      "#{@add}"
     elsif @opearation == "divide"
-      
+      @add = @number1 + @number2
+      "#{@add}"
     end 
   end 
 end
