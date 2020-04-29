@@ -13,6 +13,11 @@ class App < Sinatra::Base
   end 
   
   get '/say/:number/:phrase' do 
-    @
+    @repeat = params[:number].to_i 
+    @phrase = params[:phrase]
+    i = 0
+    while @repeat > i 
+      "#{@repeat}""
+    end 
   end 
 end
